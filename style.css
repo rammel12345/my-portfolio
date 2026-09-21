@@ -96,3 +96,38 @@ body {
 .about ol {
   line-height: 1.8;
 }
+
+/* Activity 3: My Skills */
+
+.skills {
+  padding: 50px 8%;
+  background-color: #f4f4f4;
+}
+
+.skills h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+}
+
+.skill-card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.skill-card h3 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.skill-card p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
