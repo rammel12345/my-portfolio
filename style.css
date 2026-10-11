@@ -260,3 +260,34 @@ body {
 .experience tbody tr:nth-child(even) {
   background-color: #eee;
 }
+
+/* Activity 6: Navigation Menu */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #222;
+  z-index: 1000;
+  /* Ensures the menu stays on top of other content */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 15px 0;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background-color: #444;
+}

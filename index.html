@@ -1,195 +1,206 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>My Portfolio</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <title>My Portfolio</title>
 
-  <body>
-    <!-- Activity 1: Introduction -->
-    <main class="hero">
-      <img
-        src="images/profile.png"
-        alt="Profile Picture"
-        class="profile-image"
-      />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <h1>Hi, I'm Rammel Haya</h1>
+<body>
 
-      <h2>Aspiring Web Developer</h2>
+  <!-- Activity 6: Navigation Menu -->
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-      <p>I enjoy creating simple, useful, and accessible websites.</p>
+  <!-- Activity 1: Introduction -->
+  <main class="hero" id="home">
+    <img src="images/profile.png" alt="Profile Picture" class="profile-image" />
 
-      <!-- Activity 2: Link to About Me -->
-      <a href="#about" class="learn-more"> Learn More About Me </a>
-    </main>
+    <h1>Hi, I'm Rammel Haya</h1>
 
-    <!-- Activity 2: About Me -->
-    <section id="about" class="about">
-      <h2>About Me</h2>
+    <h2>Aspiring Web Developer</h2>
 
-      <p>
-        I am a BS Information Systems student at Caraga State University. I am
-        interested in web development, databases, and creating useful technology
-        solutions.
-      </p>
+    <p>I enjoy creating simple, useful, and accessible websites.</p>
 
-      <h3>My Interests</h3>
+    <!-- Activity 2: Link to About Me -->
+    <a href="#about" class="learn-more"> Learn More About Me </a>
+  </main>
 
-      <ul>
-        <li>Web Development</li>
-        <li>Database Systems</li>
-        <li>UI/UX Design</li>
-      </ul>
+  <!-- Activity 2: About Me -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
 
-      <h3>My Goals</h3>
+    <p>
+      I am a BS Information Systems student at Caraga State University. I am
+      interested in web development, databases, and creating useful technology
+      solutions.
+    </p>
 
-      <ol>
-        <li>Improve my front-end development skills.</li>
-        <li>Build useful web applications.</li>
-        <li>Become a professional software developer.</li>
-      </ol>
-    </section>
+    <h3>My Interests</h3>
 
-    <!-- Activity 3: My Skills -->
-    <section class="skills">
-      <h2>My Skills</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>Database Systems</li>
+      <li>UI/UX Design</li>
+    </ul>
 
-      <div class="skills-container">
-        <div class="skill-card">
-          <h3>HTML</h3>
-          <p>Webpage structure</p>
-        </div>
+    <h3>My Goals</h3>
 
-        <div class="skill-card">
-          <h3>CSS</h3>
-          <p>Webpage styling</p>
-        </div>
+    <ol>
+      <li>Improve my front-end development skills.</li>
+      <li>Build useful web applications.</li>
+      <li>Become a professional software developer.</li>
+    </ol>
+  </section>
 
-        <div class="skill-card">
-          <h3>JavaScript</h3>
-          <p>Web interaction</p>
-        </div>
+  <!-- Activity 3: My Skills -->
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
 
-        <div class="skill-card">
-          <h3>Java</h3>
-          <p>Programming fundamentals</p>
-        </div>
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>HTML</h3>
+        <p>Webpage structure</p>
+      </div>
 
-        <div class="skill-card">
-          <h3>SQL</h3>
-          <p>Database queries</p>
-        </div>
+      <div class="skill-card">
+        <h3>CSS</h3>
+        <p>Webpage styling</p>
+      </div>
 
-        <div class="skill-card">
-          <h3>Git</h3>
-          <p>Version control</p>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Web interaction</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Java</h3>
+        <p>Programming fundamentals</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>SQL</h3>
+        <p>Database queries</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Git</h3>
+        <p>Version control</p>
+      </div>
+    </div>
+  </section>
+
+  <!------- Activity 4: My Projects --------->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <p class="projects-intro">
+      Here are some of my projects and the technologies I used.
+    </p>
+
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="images/project1.png" alt="Personal portfolio website" />
+
+        <div class="project-content">
+          <h3>Personal Portfolio Website</h3>
+          <p>
+            A personal website that introduces me, showcases my skills, and
+            presents my projects.
+          </p>
+          <p class="project-tech"><strong>Technologies:</strong> HTML, CSS</p>
+          <a href="#" class="project-link">View Project</a>
         </div>
       </div>
-    </section>
 
-    <!------- Activity 4: My Projects --------->
-    <section class="projects" id="projects">
-      <h2>My Projects</h2>
-      <p class="projects-intro">
-        Here are some of my projects and the technologies I used.
-      </p>
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="images/project2.jpg" alt="Student information system" />
 
-      <div class="projects-container">
-        <!-- Project 1 -->
-        <div class="project-card">
-          <img src="images/project1.png" alt="Personal portfolio website" />
-
-          <div class="project-content">
-            <h3>Personal Portfolio Website</h3>
-            <p>
-              A personal website that introduces me, showcases my skills, and
-              presents my projects.
-            </p>
-            <p class="project-tech"><strong>Technologies:</strong> HTML, CSS</p>
-            <a href="#" class="project-link">View Project</a>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="project-card">
-          <img src="images/project2.jpg" alt="Student information system" />
-
-          <div class="project-content">
-            <h3>Student Information System</h3>
-            <p>
-              A sample system concept for organizing student information and
-              academic records.
-            </p>
-            <p class="project-tech">
-              <strong>Technologies:</strong> HTML, CSS, Java
-            </p>
-            <a href="#projects" class="project-link">View Project</a>
-          </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="project-card">
-          <img src="images/project3.jpg" alt="Database management project" />
-
-          <div class="project-content">
-            <h3>Database Management Project</h3>
-            <p>
-              A sample database project concept for storing and organizing
-              information.
-            </p>
-            <p class="project-tech">
-              <strong>Technologies:</strong> SQL, Database Design
-            </p>
-            <a href="#projects" class="project-link">View Project</a>
-          </div>
+        <div class="project-content">
+          <h3>Student Information System</h3>
+          <p>
+            A sample system concept for organizing student information and
+            academic records.
+          </p>
+          <p class="project-tech">
+            <strong>Technologies:</strong> HTML, CSS, Java
+          </p>
+          <a href="#projects" class="project-link">View Project</a>
         </div>
       </div>
-    </section>
 
-    <!-- Activity 5: Education and Experience -->
-    <section class="experience" id="experience">
-      <h2>Education and Experience</h2>
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="images/project3.jpg" alt="Database management project" />
 
-      <p class="experience-intro">
-        My educational background and learning experience.
-      </p>
-
-      <div class="table-container">
-        <table>
-          <thead>
-            <tr>
-              <th>Education / Experience</th>
-              <th>Institution / Organization</th>
-              <th>Details</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>BS Information Systems</td>
-              <td>Caraga State University</td>
-              <td>College education</td>
-            </tr>
-
-            <tr>
-              <td>Web Development</td>
-              <td>Personal Learning</td>
-              <td>Practicing HTML and CSS</td>
-            </tr>
-
-            <tr>
-              <td>Database Systems</td>
-              <td>Academic Coursework</td>
-              <td>Learning SQL and database concepts</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="project-content">
+          <h3>Database Management Project</h3>
+          <p>
+            A sample database project concept for storing and organizing
+            information.
+          </p>
+          <p class="project-tech">
+            <strong>Technologies:</strong> SQL, Database Design
+          </p>
+          <a href="#projects" class="project-link">View Project</a>
+        </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+
+  <!-- Activity 5: Education and Experience -->
+  <section class="experience" id="experience">
+    <h2>Education and Experience</h2>
+
+    <p class="experience-intro">
+      My educational background and learning experience.
+    </p>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Education / Experience</th>
+            <th>Institution / Organization</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>BS Information Systems</td>
+            <td>Caraga State University</td>
+            <td>College education</td>
+          </tr>
+
+          <tr>
+            <td>Web Development</td>
+            <td>Personal Learning</td>
+            <td>Practicing HTML and CSS</td>
+          </tr>
+
+          <tr>
+            <td>Database Systems</td>
+            <td>Academic Coursework</td>
+            <td>Learning SQL and database concepts</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</body>
+
 </html>
