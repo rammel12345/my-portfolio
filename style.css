@@ -209,3 +209,54 @@ body {
 .project-link:hover {
   background-color: #444;
 }
+
+/* Activity 5: Education and Experience */
+
+.experience {
+  padding: 50px 8%;
+  background-color: #f4f4f4;
+}
+
+.experience h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.experience-intro {
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* Table wrapper */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Table styling */
+.experience table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+/* Table headings and cells */
+.experience th,
+.experience td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+/* Table header */
+.experience th {
+  background-color: #222;
+  color: white;
+  font-weight: bold;
+}
+
+/* Alternate row background */
+.experience tbody tr:nth-child(even) {
+  background-color: #eee;
+}
